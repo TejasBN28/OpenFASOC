@@ -120,7 +120,7 @@ type `magic` terminal to check whether it installed succesfully or not. Type `ex
 # Temperature Sensor Generator
 Circuit
 -------
-This generator creates a compact mixed-signal temperature sensor based on the topology from this paper `<https://ieeexplore.ieee.org/document/9816083>`. 
+This generator creates a compact mixed-signal temperature sensor based on the topology from this [paper](https://ieeexplore.ieee.org/document/9816083).
 
 It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.
 
@@ -136,8 +136,12 @@ The physical implementation of the analog blocks in the circuit is done using tw
 The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
 The layout of the HEADER cell is shown below:
 
-<img width="1512" alt="Screenshot 2022-11-02 at 3 26 02 AM" src="https://user-images.githubusercontent.com/110079631/199349855-247c9aeb-3ca8-4cd0-863a-cb629778ee2a.png">
+<p align="center">
+  <img src="/images/of1.png">
+</p><br>
 
 The layout of the SLC cell is shown below:
 
-<img width="1512" alt="Screenshot 2022-11-02 at 3 26 13 AM" src="https://user-images.githubusercontent.com/110079631/199349926-63135ad7-fd85-42bc-998a-dac48b1ad5f1.png">
+<p align="center">
+  <img src="/images/of2.png">
+</p><br>
