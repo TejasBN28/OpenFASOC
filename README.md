@@ -188,21 +188,19 @@ For temperature Range –20C to 100C, the error and inverters and headers are gi
   <img src="/images/of6.png">
 </p><br>
 
-
 For temperature Range 30C to 100C, the error and inverters and headers are given below:
 <p align="center">
   <img src="/images/of7.png">
 </p><br>
 
 #### Directories where the resulting verilog is Created:
-
 The screenshot of the files created before and after is given below:
-##### After
+#### After
 <p align="center">
   <img src="/images/of8.png">
 </p><br>
 
-##### Before
+#### Before
 <p align="center">
   <img src="/images/of9.png">
 </p><br>
