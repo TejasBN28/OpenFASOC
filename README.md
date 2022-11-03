@@ -15,6 +15,7 @@ pip install -r requirements.txt
 For the complete steps of installing OpenFASOC, refer Manual Installation from [here](https://github.com/idea-fasoc/OpenFASOC/blob/main/docs/source/getting-started.rst). 
 
 ## 2. OpenROAD: 
+OpenROAD is an integrated chip physical design tool that takes a design from synthesized Verilog to routed layout. OpenROAD uses the OpenDB database and OpenSTA for static timing analysis. Documentation is also available [here](https://openroad.readthedocs.io/en/latest/main/README.html).
 The commands to install OpenROAD are,
 ```
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
