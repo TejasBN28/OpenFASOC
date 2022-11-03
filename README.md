@@ -144,3 +144,18 @@ The layout of the SLC cell is shown below:
 <p align="center">
   <img src="/images/of2.png">
 </p><br>
+
+# OpenFASOC Flow
+<p align="center">
+  <img src="/images/of2.png">
+</p><br>
+
+The generator must first parse the user’s requirements into a high-level circuit description or verilog. User input parsing is implemented by reading from a JSON spec file directly in the temp-sense-gen repository. The JSON allows for specifying power, area, maximum error (temperature result accuracy),
+an optimization option (to choose which option to prioritize), and an operating temperature range (minimum and maximum operating temperature values).
+The operating temperature range and optimization must be specified, but other items can be left blank. 
+
+
+The generator uses this model file to automatically determine the number of headers and inverters, among other necessary modifications that can be made to meet spec. The generator references the model file in an iterative process until either meeting spec or failing. A verilog description is then
+produced by substituting specifics into several template verilog files.
+
+## Case Study: Temp_Sensor
