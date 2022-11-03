@@ -60,4 +60,25 @@ sudo apt-get install ngsolve
 
 ```
 
+## 5. Yosys
+The software used to run gate level synthesis is Yosys. Yosys is a framework for Verilog RTL synthesis. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the Yosys C++ code base.
 
+
+To install yosys, install the prerequisites using the following command 
+ ```
+ sudo apt-get install build-essential clang bison flex \
+	libreadline-dev gawk tcl-dev libffi-dev git \
+	graphviz xdot pkg-config python3 libboost-system-dev \
+	libboost-python-dev libboost-filesystem-dev zlib1g-dev
+```
+To install latest Version of Yosys, 
+```
+git clone https://github.com/YosysHQ/yosys.git
+
+make
+
+sudo make install 
+
+make test
+
+```
