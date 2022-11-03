@@ -116,3 +116,28 @@ sudo make
 sudo make install
 ```
 type `magic` terminal to check whether it installed succesfully or not. Type `exit` to exit magic.
+
+# Temperature Sensor Generator
+Circuit
+-------
+This generator creates a compact mixed-signal temperature sensor based on the topology from this paper `<https://ieeexplore.ieee.org/document/9816083>`. 
+
+It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.
+
+![tempsense_ckt](https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png)
+
+  Block diagram of the temperature sensor’s circuit
+
+The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
+
+* HEADER cell, containing the transistors in subthreshold operation;
+* SLC cell, containing the Split-Control Level Converter.
+
+The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
+The layout of the HEADER cell is shown below:
+
+<img width="1512" alt="Screenshot 2022-11-02 at 3 26 02 AM" src="https://user-images.githubusercontent.com/110079631/199349855-247c9aeb-3ca8-4cd0-863a-cb629778ee2a.png">
+
+The layout of the SLC cell is shown below:
+
+<img width="1512" alt="Screenshot 2022-11-02 at 3 26 13 AM" src="https://user-images.githubusercontent.com/110079631/199349926-63135ad7-fd85-42bc-998a-dac48b1ad5f1.png">
