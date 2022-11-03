@@ -82,3 +82,26 @@ sudo make install
 make test
 
 ```
+
+## 6. Magic
+Run following commands one by one to fulfill the system requirement.
+#### Prerequisites for magic
+```
+sudo apt-get install m4
+sudo apt-get install tcsh
+sudo apt-get install csh
+sudo apt-get install libx11-dev
+sudo apt-get install tcl-dev tk-dev
+sudo apt-get install libcairo2-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev
+sudo apt-get install libncurses-dev
+```
+#### Install magic
+```
+git clone https://github.com/RTimothyEdwards/magic
+cd magic/
+./configure
+sudo make
+sudo make install
+```
+type `magic` terminal to check whether it installed succesfully or not. Type `exit` to exit magic.
