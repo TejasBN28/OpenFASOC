@@ -147,7 +147,7 @@ The layout of the SLC cell is shown below:
 
 # OpenFASOC Flow
 <p align="center">
-  <img src="/images/of2.png">
+  <img src="/images/of3.png">
 </p><br>
 
 The generator must first parse the user’s requirements into a high-level circuit description or verilog. User input parsing is implemented by reading from a JSON spec file directly in the temp-sense-gen repository. The JSON allows for specifying power, area, maximum error (temperature result accuracy),
@@ -159,3 +159,52 @@ The generator uses this model file to automatically determine the number of head
 produced by substituting specifics into several template verilog files.
 
 ## Case Study: Temp_Sensor
+
+### 1. Verilog Files geneartion and dir? User specs, iterative approach and generated verilog files
+The test.json file shown in the below screenshot corresponds to the temp_sense_gen.
+
+<p align="center">
+  <img src="/images/of4.png">
+</p><br>
+
+In the test.json file, only the temperature can be modified and the range of temperature should always be between –20C to 100C. Based on the operating temperature range, generator calculates the number of header and inverters to minimize the error. 
+
+To run the verilog generation, run the following command:
+```
+make sky130hd_temp_verilog
+```
+
+The generator references the model file in an iterative process until either meeting specifications or failing.
+
+<p align="center">
+  <img src="/images/of5.png">
+</p><br>
+
+As shown in the above picture, the tool is trying to minimize the error iteratively, by varying the number of inverters and headers for the given temperature range.
+
+#### Results 
+For temperature Range –20C to 100C, the error and inverters and headers are given below:
+<p align="center">
+  <img src="/images/of6.png">
+</p><br>
+
+
+For temperature Range 30C to 100C, the error and inverters and headers are given below:
+<p align="center">
+  <img src="/images/of7.png">
+</p><br>
+
+#### Directories where the resulting verilog is Created:
+
+The screenshot of the files created before and after is given below:
+##### After
+<p align="center">
+  <img src="/images/of8.png">
+</p><br>
+
+##### Before
+<p align="center">
+  <img src="/images/of9.png">
+</p><br>
+
+
