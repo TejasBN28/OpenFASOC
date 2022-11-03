@@ -30,6 +30,7 @@ cd OpenROAD
 mkdir build
 
 cd build
+
 cmake ..
 
 make
