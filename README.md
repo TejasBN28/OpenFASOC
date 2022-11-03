@@ -205,4 +205,5 @@ The screenshot of the files created before and after is given below:
   <img src="/images/of9.png">
 </p><br>
 
-
+Here, using the generic template, extra blocks of counter, TEMP_ANALOG_hv.nl.v, TEMP_ANALOG_lv.nl.v
+are created in the src folder.
