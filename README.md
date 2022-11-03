@@ -48,3 +48,16 @@ sudo apt-get install -y libqt5widgets5
 sudo dpkg -i klayout_0.27.11-1_amd64.deb
 
 ```
+
+## 4. Netgen
+To install Netgen, 
+```
+sudo add-apt-repository ppa:ngsolve/ngsolve
+
+sudo apt-get update
+
+sudo apt-get install ngsolve
+
+```
+
+
