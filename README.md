@@ -11,7 +11,7 @@ OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven ent
 ## 1.1 Traditional Analog Design Flow
 The traditional analog design flow is shown in the below block diagram. Here, the first step is to draw a schematic of the analog circuit to satisfy the user specifications. Then, the schematic is simulated to check if it meets the required specifications. If the specs are satisfied, then the layout of the schematic is drawn manually. Till this step, everything is manually generated. Foe the drawn layout, Design Rule Checks (DRC), Layout Vs Schematic (LVS) and Parasitic Extraction (PEX) is automated.<br><br>
 <p align="center">
-![Typical_Analog_Flow](https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png)
+<img src="https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png">
 </p>
 
 # 2. Installation
