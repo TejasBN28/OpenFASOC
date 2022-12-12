@@ -12,6 +12,7 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
  	- [2.4 Netgen](#24-Netgen)
  	- [2.5 Yosys](#25-Yosys)
  	- [2.6 Magic](#26-Magic)
+- [3. Temperature Sensor Generator](#3-Temperature-Sensor-Generator)
 
 # 1. Introduction
 OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven entirely by user constraints, along with a suite of automated generators for analog blocks. The process-agnostic framework takes high-level user intent as inputs to generate optimized and fully verified analog blocks using a cell-based design methodology. <br>
