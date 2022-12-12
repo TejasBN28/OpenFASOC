@@ -29,7 +29,10 @@ The OpenFASOC Design flow starts by taking the design specifications in the form
 
 ### Auxillary Cell based Approach:
 The idea behind OpenFASOC tool is the use of auxillary cells. Aux-cells are small analog cells with specific analog functionality used by analog blocks. They are derived from a template and characterized/optimized per PDK. They are usually formed of a maximum of 12 transitors. The layout of the auxillary cells is automatically generated using Align tool. 
-<br><br>The idea of using these Aux-Cells is that by using variable number of them, the output characteristics can be altered. A good example to understand the auxillary cells and their impact on the design is Digitally Controlled Oscillator. 
+<br><br>The idea of using these Aux-Cells is that by using variable number of them, the output characteristics can be altered. A good example to understand the auxillary cells and their impact on the design is Digitally Controlled Oscillator. In the DCO example, there are two Auxillary cells:
+ - Differential Tri-State Buffer
+ - Capacitor
+In DCO, a ring oscillator like structure is created. By varying the number of buffers/inverters connected in parallel and the size of the capactors, we can vary the charging time of the capacitor thereby varying the frequency of the DCO.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/110079788/207123929-229a9bf0-3174-43c9-9510-0cd015101a17.png">
