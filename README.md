@@ -133,13 +133,12 @@ type `magic` terminal to check whether it installed succesfully or not. Type `ex
 # 3. Temperature Sensor Generator
 Circuit
 -------
-This generator creates a compact mixed-signal temperature sensor based on the topology from this [paper](https://ieeexplore.ieee.org/document/9816083).
+An all-digital temperature sensor, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors. The way that works is we have a subthreshold current that has an exponential dependency on the temperature, the frequency generated from the subthreshold ring oscillator is also dependent on temperature. So we can sense the temperature by comparing the difference between the clock frequency generated from a reference oscillator and the clock frequency from the proposed frequency generator.
 
-It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential.
-
-![tempsense_ckt](https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png)
-
-  Block diagram of the temperature sensor’s circuit
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png">
+</p><br>
+Block diagram of the temperature sensor’s circuit
 
 The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
 1. HEADER cell, containing the transistors in subthreshold operation;
