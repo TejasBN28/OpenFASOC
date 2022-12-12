@@ -245,10 +245,14 @@ The Detail Placement power and area report is shown below:
 
 ### 3.3.5 Routing
 The Global route power and area report is shown below:
-![glo_r](https://user-images.githubusercontent.com/110079788/207148800-c2f99ae0-08af-4355-a0ca-dc43fddc60ff.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207148800-c2f99ae0-08af-4355-a0ca-dc43fddc60ff.png">
+</p><br>
 
 The Finished power and area report is shown below:
-![fin](https://user-images.githubusercontent.com/110079788/207149003-39e13d01-f31f-45ed-b4f2-6b3b76e37acd.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207149003-39e13d01-f31f-45ed-b4f2-6b3b76e37acd.png">
+</p><br>
 
 The final routed design is shown below:
 ![finalized](https://user-images.githubusercontent.com/110079788/207149436-8bd2d902-2559-4fd3-9003-1840aaea8f34.png)
