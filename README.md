@@ -130,7 +130,7 @@ sudo make install
 ```
 type `magic` terminal to check whether it installed succesfully or not. Type `exit` to exit magic.
 
-# Temperature Sensor Generator
+# 3. Temperature Sensor Generator
 Circuit
 -------
 This generator creates a compact mixed-signal temperature sensor based on the topology from this [paper](https://ieeexplore.ieee.org/document/9816083).
