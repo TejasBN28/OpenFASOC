@@ -7,7 +7,7 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
 
 # 1. Introduction
 OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven entirely by user constraints, along with a suite of automated generators for analog blocks. The process-agnostic framework takes high-level user intent as inputs to generate optimized and fully verified analog blocks using a cell-based design methodology. <br>
-![Typical_Analog_Flow](https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png)
+	![Typical_Analog_Flow](https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png)
 
 
 # 2. Installation
