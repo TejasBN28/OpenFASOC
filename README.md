@@ -145,8 +145,8 @@ An all-digital temperature sensor, that relies on a new subthreshold oscillator 
 ## 3.2 Temperature Sensor Auxillary Cells
 
 The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells (auxillary cells):<br>
-### - HEADER cell, containing the transistors in subthreshold operation;
-### - SLC cell, containing the Split-Control Level Converter.
+#### - HEADER cell, containing the transistors in subthreshold operation;
+#### - SLC cell, containing the Split-Control Level Converter.
 
 
 The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
