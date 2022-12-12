@@ -170,9 +170,6 @@ The operating temperature range and optimization must be specified, but other it
 The generator uses this model file to automatically determine the number of headers and slc, among other necessary modifications that can be made to meet spec. The generator references the model file in an iterative process until either meeting spec or failing. A verilog description is then
 produced by substituting specifics into template verilog files.
 
-## Case Study: Temp_Sensor
-
-### 1. Verilog Files geneartion and dir? User specs, iterative approach and generated verilog files
 The test.json file shown in the below screenshot corresponds to the temp_sense_gen.
 
 <p align="center">
@@ -185,7 +182,6 @@ To run the verilog generation, run the following command:
 ```
 make sky130hd_temp_verilog
 ```
-
 The generator references the model file in an iterative process until either meeting specifications or failing.
 
 <p align="center">
