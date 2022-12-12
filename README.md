@@ -207,11 +207,13 @@ The screenshot of the files created before and after is given below:
 <p align="center">
   <img src="/images/of8.png">
 </p><br>
-
 #### After
 <p align="center">
   <img src="/images/of9.png">
 </p><br>
 
-Here, using the generic template, extra blocks of counter, TEMP_ANALOG_hv.nl.v, TEMP_ANALOG_lv.nl.v
-are created in the src folder.
+Here, using the generic template, extra blocks of counter, TEMP_ANALOG_hv.nl.v, TEMP_ANALOG_lv.nl.v are created in the src folder.
+For the temperature specification of -20C to 100C, we see that three header files are required. This can be seen in the generated verilog file as well.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207143879-3bbaa6af-b4bc-43de-abd1-cf2bf7a14ce9.png">
+</p><br>
