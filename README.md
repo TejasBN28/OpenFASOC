@@ -149,7 +149,7 @@ The physical implementation of the analog blocks in the circuit is done using tw
 #### - SLC cell, containing the Split-Control Level Converter.
 
 
-The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
+The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.<br>
 The layout of the HEADER cell is shown below:
 
 <p align="center">
