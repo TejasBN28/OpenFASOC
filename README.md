@@ -14,6 +14,12 @@ The traditional analog design flow is shown in the below block diagram. Here, th
 <img src="https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png">
 </p>
 
+## 1.2 OpenFASOC Analog Design Flow
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/110079788/207117484-d3c37426-f8f0-42c5-b286-f4529392e96f.png">
+</p>
+
 # 2. Installation
 ## 2.1. OpenFASOC:
 The command used to install OpenFASOC are 
