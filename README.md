@@ -6,6 +6,12 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
  	- [1.1 Traditional Analog Design Flow](#11-Traditional-Analog-Design-Flow)
  	- [1.2 OpenFASOC Analog Design Flow](#12-OpenFASOC-Analog-Design-Flow)
  - [2. Installation](#2-Installation)<br>
+ 	- [2.1 OpenFASOC](#21-OpenFASOC)
+ 	- [2.2 OpenROAD](#22-OpenROAD)
+ 	- [2.3 Klayout](#23-Klayout)
+ 	- [2.4 Netgen](#24-Netgen)
+ 	- [2.5 Yosys](#25-Yosys)
+ 	- [2.6 Magic](#26-Magic)
 
 # 1. Introduction
 OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven entirely by user constraints, along with a suite of automated generators for analog blocks. The process-agnostic framework takes high-level user intent as inputs to generate optimized and fully verified analog blocks using a cell-based design methodology. <br>
@@ -40,7 +46,7 @@ The idea behind OpenFASOC tool is the use of auxillary cells. Aux-cells are smal
 
 
 # 2. Installation
-## 2.1. OpenFASOC:
+## 2.1 OpenFASOC:
 The command used to install OpenFASOC are 
 ```
 git clone https://github.com/idea-fasoc/openfasoc
@@ -49,7 +55,7 @@ pip install -r requirements.txt
 ```
 For the complete steps of installing OpenFASOC, refer Manual Installation from [here](https://github.com/idea-fasoc/OpenFASOC/blob/main/docs/source/getting-started.rst). 
 
-## 2.2. OpenROAD: 
+## 2.2 OpenROAD: 
 OpenROAD is an integrated chip physical design tool that takes a design from synthesized Verilog to routed layout. OpenROAD uses the OpenDB database and OpenSTA for static timing analysis. Documentation is also available [here](https://openroad.readthedocs.io/en/latest/main/README.html).
 
 
@@ -66,14 +72,14 @@ cmake ..
 make
 ```
 
-## 2.3. Klayout
+## 2.3 Klayout
 Downlaod the latest version of the Klayout from [here](https://www.klayout.de/build.html). Install the following dependencies: qt5-default, qttools5-dev, libqt5xmlpatterns5-dev, qtmultimedia5-dev, libqt5multimediawidgets5 and libqt5svg5-dev.
 ```
 sudo apt-get install -y libqt5widgets5
 sudo dpkg -i klayout_0.27.11-1_amd64.deb
 ```
 
-## 2.4. Netgen
+## 2.4 Netgen
 To install Netgen, 
 ```
 sudo add-apt-repository ppa:ngsolve/ngsolve
@@ -81,7 +87,7 @@ sudo apt-get update
 sudo apt-get install ngsolve
 ```
 
-## 2.5. Yosys
+## 2.5 Yosys
 The software used to run gate level synthesis is Yosys. Yosys is a framework for Verilog RTL synthesis. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the Yosys C++ code base.
 
 
