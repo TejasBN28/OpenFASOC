@@ -20,8 +20,7 @@ The main drawback of Traditional Analog Design Flow is that the design time is v
 <p align="center">
 <img src="https://user-images.githubusercontent.com/110079788/207117484-d3c37426-f8f0-42c5-b286-f4529392e96f.png">
 </p>
-<br>
-The OpenFASOC Design flow starts by taking the design specifications in the form of `.json` format. `./build.sh -option '-j8' -noruby -without-qt-multimedia -without-qt-xml -without-qt-svg` Then the OpenFASOC generator determines the number of auxillary cell to be added to optimize the design. The generator uses the model file model file to automatically determine the number of Aux-Cell to be added. Here, the model file is saved in the form of a `.csv` file. 
+The OpenFASOC Design flow starts by taking the design specifications in the form of `.json` format. Then the OpenFASOC generator determines the number of auxillary cell to be added to optimize the design. The generator uses the model file model file to automatically determine the number of Aux-Cell to be added. Here, the model file is saved in the form of a `.csv` file. 
 
 The idea behind OpenFASOC tool is the use of auxillary cells. Aux-cells are small analog cells with specific analog functionality used by analog blocks. They are derived from a template and characterized/optimized per PDK. They are usually formed of a maximum of 12 transitors. The idea of using these Aux-Cells is that by using variable number of them, the output characteristics can be altered. A good example to understand the auxillary cells and their imact on the design is Digitally Controlled Oscillator. 
 
