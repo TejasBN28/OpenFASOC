@@ -16,7 +16,7 @@ The traditional analog design flow is shown in the below block diagram. Here, th
 </p>
 
 ## 1.2 OpenFASOC Analog Design Flow
-The main drawback of Traditional Analog Design Flow is that the design time is very huge (approximately 5 to 6 months). The main objective of openfacsoc is to reduce the design time from 5 to 6 months to a few hours by leveraging digital design eda tools to automate analog design flow. 
+The main drawback of Traditional Analog Design Flow is that the design time is very huge (approximately 5 to 6 months). The main objective of openfacsoc is to reduce the design time from 5 to 6 months to a few hours by leveraging digital design eda tools to automate analog design flow. `./build.sh -option '-j8' -noruby -without-qt-multimedia -without-qt-xml -without-qt-svg`
 <p align="center">
 <img src="https://user-images.githubusercontent.com/110079788/207117484-d3c37426-f8f0-42c5-b286-f4529392e96f.png">
 </p>
