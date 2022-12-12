@@ -131,16 +131,14 @@ sudo make install
 type `magic` terminal to check whether it installed succesfully or not. Type `exit` to exit magic.
 
 # 3. Temperature Sensor Generator
-## 3.1 Circuit
-An all-digital temperature sensor, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors. The way that works is we have a subthreshold current that has an exponential dependency on the temperature, the frequency generated from the subthreshold ring oscillator is also dependent on temperature. So we can sense the temperature by comparing the difference between the clock frequency generated from a reference oscillator and the clock frequency from the proposed frequency generator.
+## 3.1 Temperature Sensor Circuit
+An all-digital temperature sensor, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors. The way that works is we have a subthreshold current that has an exponential dependency on the temperature, the frequency generated from the subthreshold ring oscillator is also dependent on temperature. So we can sense the temperature by comparing the difference between the clock frequency generated from a reference oscillator and the clock frequency from the proposed frequency generator. Block diagram of the temperature sensor’s circuit is shown below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png">
 </p><br>
 
-Block diagram of the temperature sensor’s circuit
-
-The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
+The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells (auxillary cells):
 1. HEADER cell, containing the transistors in subthreshold operation;
 2. SLC cell, containing the Split-Control Level Converter.
 
@@ -166,9 +164,8 @@ The generator must first parse the user’s requirements into a high-level circu
 an optimization option (to choose which option to prioritize), and an operating temperature range (minimum and maximum operating temperature values).
 The operating temperature range and optimization must be specified, but other items can be left blank. 
 
-
-The generator uses this model file to automatically determine the number of headers and inverters, among other necessary modifications that can be made to meet spec. The generator references the model file in an iterative process until either meeting spec or failing. A verilog description is then
-produced by substituting specifics into several template verilog files.
+The generator uses this model file to automatically determine the number of headers and slc, among other necessary modifications that can be made to meet spec. The generator references the model file in an iterative process until either meeting spec or failing. A verilog description is then
+produced by substituting specifics into template verilog files.
 
 ## Case Study: Temp_Sensor
 
