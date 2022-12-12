@@ -1,5 +1,5 @@
 # OpenFASOC
-OpenFASOC is focused on automating analog generation using  open-source tools. OpenFASOC converts user specification to GDSII with fully open-sourced tools. This project is led by a team of researchers at the University of Michigan. Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits. The FASoC Program is focused on developing a complete system-on-chip (SoC) synthesis tool from user specification to GDSII with fully open-sourced tools. 
+OpenFASOC is focused on automating analog generation using  open-source tools. OpenFASOC converts user specification to GDSII with fully open-sourced tools. This project is led by a team of researchers at the University of Michigan. Fully Open-Source Autonomous SoC Synthesis OpenFASOC uses Customizable Cell-Based approach to synthesize analog circuits. Basically, OpenFASoC Program is focused on developing a complete system-on-chip (SoC) synthesis tool from user specification to GDSII with fully open-sourced tools. 
 
 # Table of contents
  - [1. Introduction](#1-Introduction)<br>
