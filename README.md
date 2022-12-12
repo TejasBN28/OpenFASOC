@@ -37,7 +37,6 @@ The idea behind OpenFASOC tool is the use of auxillary cells. Aux-cells are smal
 <br><br>The idea of using these Aux-Cells is that by using variable number of them, the output characteristics can be altered. A good example to understand the auxillary cells and their impact on the design is Digitally Controlled Oscillator. In the DCO example, there are two Auxillary cells:
  - Differential Tri-State Buffer
  - Capacitor
-
 <br>In DCO, a ring oscillator like structure is created. By varying the number of buffers/inverters connected in parallel and the size of the capactors, we can vary the charging time of the capacitor thereby varying the frequency of the DCO.
 
 <p align="center">
