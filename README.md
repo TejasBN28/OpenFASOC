@@ -225,5 +225,22 @@ The synthesis is run using Yosys to find the appropriate circuit implementation 
   <img src="https://user-images.githubusercontent.com/110079788/207146299-a60f677a-65bc-471f-8415-7509cb518f98.png">
 </p><br>
 ### 3.3.3 Floorplan
+Floorplanning takes place after synthesis. This temperature sensor design implements two voltage domains: one for the VDD that powers most of the circuit, and another for the VIN that powers the ring oscillator and is an output of the HEADER cells. The floorplan power and area report is shown below:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207146820-469a4ad9-00ba-46a9-b1e7-9fcea5424888.png">
+</p><br>
+
 ### 3.3.4 Placement
+Placement takes place after the floorplan is ready and has two phases: global placement and detailed placement. The output of this phase will have all instances placed in their corresponding voltage domain, ready for routing.
+
+The Global Placement power and area report is shown below:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207147870-79694279-dc11-482d-a89d-784962887150.png">
+</p><br>
+
+The Detail Placement power and area report is shown below:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207147889-43012b12-1682-4ef0-8e74-993c8cb252de.png">
+</p><br>
+
 ### 3.3.5 Routing
