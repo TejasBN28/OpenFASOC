@@ -135,6 +135,10 @@ type `magic` terminal to check whether it installed succesfully or not. Type `ex
 An all-digital temperature sensor, that relies on a new subthreshold oscillator (achieved using the auxiliary cell “Header Cell“) for realizing synthesizable thermal sensors. The way that works is we have a subthreshold current that has an exponential dependency on the temperature, the frequency generated from the subthreshold ring oscillator is also dependent on temperature. So we can sense the temperature by comparing the difference between the clock frequency generated from a reference oscillator and the clock frequency from the proposed frequency generator. Block diagram of the temperature sensor’s circuit is shown below.
 
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/110079788/207139366-266df203-1f80-4385-b6f3-d5fc900a3db5.png">
+</p><br>
+
+<p align="center">
   <img src="https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png">
 </p><br>
 The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells (auxillary cells):
