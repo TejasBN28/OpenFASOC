@@ -4,7 +4,7 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
 # Table of contents
  - [1. Introduction](#1-Introduction)<br>
  	- [1.1 Traditional Analog Design Flow](#11-Traditional-Analog-Design-Flow)
- 	- [1.2 OpenFASOC Analog Design Flow](#11-OpenFASOC-Analog-Design-Flow)
+ 	- [1.2 OpenFASOC Analog Design Flow](#12-OpenFASOC-Analog-Design-Flow)
  - [2. Installation](#2-Installation)<br>
 
 # 1. Introduction
