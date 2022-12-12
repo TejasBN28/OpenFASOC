@@ -137,10 +137,10 @@ An all-digital temperature sensor, that relies on a new subthreshold oscillator 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/110079631/199317479-67f157c5-6934-470b-8552-5451b1361b9c.png">
 </p><br>
-
 The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells (auxillary cells):
 1. HEADER cell, containing the transistors in subthreshold operation;
 2. SLC cell, containing the Split-Control Level Converter.
+
 
 The gds and lef files of HEADER and SLC cells are pre-created before the start of the Generator flow.
 The layout of the HEADER cell is shown below:
