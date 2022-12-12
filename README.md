@@ -9,8 +9,8 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
 # 1. Introduction
 OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven entirely by user constraints, along with a suite of automated generators for analog blocks. The process-agnostic framework takes high-level user intent as inputs to generate optimized and fully verified analog blocks using a cell-based design methodology. <br>
 ## 1.1 Traditional Analog Design Flow
-The traditional analog design flow is shown in the below block diagram. Here, the first step is to draw a schematic of the analog circuit to satisfy the user specifications. Then, the schematic is simulated to check if it meets the required specifications. If the specs are satisfied, then the layout of the schematic is drawn manually. Till this step, everything is manually generated. Foe the drawn layout, Design Rule Checks (DRC), Layout Vs Schematic (LVS) and Parasitic Extraction (PEX) is automated.<br>
-![Typical_Analog_Flow](https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png)
+The traditional analog design flow is shown in the below block diagram. Here, the first step is to draw a schematic of the analog circuit to satisfy the user specifications. Then, the schematic is simulated to check if it meets the required specifications. If the specs are satisfied, then the layout of the schematic is drawn manually. Till this step, everything is manually generated. Foe the drawn layout, Design Rule Checks (DRC), Layout Vs Schematic (LVS) and Parasitic Extraction (PEX) is automated.<br><br>
+:![Typical_Analog_Flow](https://user-images.githubusercontent.com/110079788/207111619-282f01ac-76b6-409c-abca-30338ddb5ef4.png):
 
 
 # 2. Installation
