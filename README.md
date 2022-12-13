@@ -324,7 +324,7 @@ Frequency Divider is used to divide the frequency which is otherwise a multiplie
 
 ## 4.2 PLL Auxillary Cells
 
-The auxillary cells already saved in the path showed below:
+The auxillary cells already saved in the path showed below: <br>
 ![aux_pll](https://user-images.githubusercontent.com/110079788/207286714-8a0e0e26-0a6d-4113-9430-87d12f62515e.png)
 
 ### Charge Pump
