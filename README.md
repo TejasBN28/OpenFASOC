@@ -321,3 +321,11 @@ Frequency Divider is used to divide the frequency which is otherwise a multiplie
 <p align="center">
   <img src="https://user-images.githubusercontent.com/110079631/203073982-c36fa793-bf28-4de6-9e77-74e61333a34f.png">
 </p><br>
+
+## 4.2 Auxillary Cells
+The auxillary cells here are 
+### Charge Pump
+![CP_PLL](https://user-images.githubusercontent.com/110079788/207285651-9fb435bd-06d0-4dda-a4cc-d38c603bd8a1.png)
+
+### Voltage Controlled Oscillator
+![DCO](https://user-images.githubusercontent.com/110079788/207285680-6ba45dee-9f47-4a20-98fe-849b0a9a8e0b.png)
