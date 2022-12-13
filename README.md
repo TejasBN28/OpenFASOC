@@ -329,4 +329,5 @@ The auxillary cells here are
 ![CP_PLL](https://user-images.githubusercontent.com/110079788/207285651-9fb435bd-06d0-4dda-a4cc-d38c603bd8a1.png)
 
 ### Voltage Controlled Oscillator
-![DCO](https://user-images.githubusercontent.com/110079788/207285680-6ba45dee-9f47-4a20-98fe-849b0a9a8e0b.png)
+![VCP_PLL](https://user-images.githubusercontent.com/110079788/207286042-39213431-feb3-4fda-a99e-f8eeea4f3a0a.png)
+
