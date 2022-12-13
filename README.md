@@ -16,6 +16,11 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
 	- [3.1 Temperature Sensor Circuit](#31-Temperature-Sensor-Circuit)
 	- [3.2 Temperature Sensor Auxillary Cells](#32-Temperature-Sensor-Auxillary-Cells)
 	- [3.3 OpenFASOC Flow for Temperature Sensor Generation](#33-OpenFASOC-Flow-for-Temperature-Sensor-Generation)
+- [4. PLL Generator](#4-PLL-Generator)
+	- [4.1 PLL Circuit](#41-PLL-Circuit)
+	- [4.2 PLL Auxillary Cells](#42-PLL-Auxillary-Cells)
+	- [4.3 OpenFASOC Flow for PLL Generation](#43-OpenFASOC-Flow-for-PLL-Generation)
+
 
 # 1. Introduction
 OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven entirely by user constraints, along with a suite of automated generators for analog blocks. The process-agnostic framework takes high-level user intent as inputs to generate optimized and fully verified analog blocks using a cell-based design methodology. <br>
@@ -271,3 +276,5 @@ The final routed design is shown below:
 ![finalized](https://user-images.githubusercontent.com/110079788/207149436-8bd2d902-2559-4fd3-9003-1840aaea8f34.png)
 
 
+# 4. PLL Generator
+# 4.1 
