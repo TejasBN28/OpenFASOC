@@ -20,7 +20,7 @@ OpenFASOC is focused on automating analog generation using  open-source tools. O
 	- [4.1 PLL Circuit](#41-PLL-Circuit)
 	- [4.2 PLL Auxillary Cells](#42-PLL-Auxillary-Cells)
 	- [4.3 OpenFASOC Flow for PLL Generation](#43-OpenFASOC-Flow-for-PLL-Generation)
-
+- [5. Future Work](#5-Future-Work)
 
 # 1. Introduction
 OpenFASOC is the world's first autonomous mixed-signal SoC framework, driven entirely by user constraints, along with a suite of automated generators for analog blocks. The process-agnostic framework takes high-level user intent as inputs to generate optimized and fully verified analog blocks using a cell-based design methodology. <br>
@@ -375,6 +375,12 @@ The Finished power and area report is shown below:
 
 The final routed design is shown below:
 ![Screenshot from 2022-12-13 15-51-14](https://user-images.githubusercontent.com/110079788/207292071-77decfc4-99ec-474c-8bc8-b50d15792d56.png)
+
+# 5. Future Work
+- A few of the errors faced in routing are bypassed(by not creating a routable net for VIN,removing path to create_routable_power_net.tcl in pre_global_route.tcl) ,which is resulting in the incorrect routing of the macro cells which can be clearly seen in the final.gds layout. Need to rectify the errors and run the flow.
+- Routing is crashing, which is bypassed by removing the path to create_routable_power_net.tcl as mentioned above. Rectification and identification of the cause for the crash is needed.
+- Warnings are generated in routing for missing connections. Need to verify whether this is due to the errors bypassed in the routing or any new issue.
+- Model File updation for more cases is required to achieve the pll generation for different input requirements that achieves best performance.
 
 # Author
 
