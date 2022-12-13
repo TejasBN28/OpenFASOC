@@ -345,6 +345,7 @@ Then place the folder PLL-gen in the generator folder of the openfasoc. Then in 
 To generate the verilog, type the following command 
 ````
 make sky130hd_pll_verilog
+
 ```
 
 ![Verilog_pll_cmd](https://user-images.githubusercontent.com/110079788/207288740-7c094cec-dc43-4101-8f72-29e0f19b9756.png)
