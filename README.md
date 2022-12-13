@@ -242,6 +242,7 @@ The synthesis is run using Yosys to find the appropriate circuit implementation 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/110079788/207146299-a60f677a-65bc-471f-8415-7509cb518f98.png">
 </p><br>
+
 ### 3.3.3 Floorplan
 Floorplanning takes place after synthesis. This temperature sensor design implements two voltage domains: one for the VDD that powers most of the circuit, and another for the VIN that powers the ring oscillator and is an output of the HEADER cells. The floorplan power and area report is shown below:
 <p align="center">
@@ -357,3 +358,4 @@ To automate synthesis to PNR, type the command
 ```
 make sky130hd_pll
 ```
+The floorplan power and area report is shown below:
