@@ -349,4 +349,5 @@ make sky130hd_pll_verilog
 
 ![Verilog_pll_cmd](https://user-images.githubusercontent.com/110079788/207288740-7c094cec-dc43-4101-8f72-29e0f19b9756.png)
 
+The Generated verilog files reside in the /PLL-gen/flow/design/src/PLL folder.
 ![verilog_PLL](https://user-images.githubusercontent.com/110079788/207288771-82cfd30a-f3d1-4dc8-85c3-7665d18489bc.png)
