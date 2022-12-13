@@ -386,6 +386,6 @@ The final routed design is shown below:
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 - Madhav Rao, Associate Professor, IIIT Bangalore
 - V N Muralidhara, Associate Professor, IIIT Bangalore
-- Vinay Rayapati
+- Vinay Rayapati, MTech Student, IIIT Bangalore
 
 
