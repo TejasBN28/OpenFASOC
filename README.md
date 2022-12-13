@@ -277,4 +277,21 @@ The final routed design is shown below:
 
 
 # 4. PLL Generator
-# 4.1 
+## 4.1 PLL Circuit
+A Phase Locked Loop (PLL) consists of 
+ - Phase Detector
+ - Charge Pump
+ - Voltage Controlled Oscillator
+ - Frequency Divider
+
+### Phase Detector
+Phase detector produces two DC voltages namely UP and DOWN, which is proportional to the phase difference between the input signal(Vref) and feedback (output) signal(Vout). If the Vref phase is lagging with respect to Vout then UP signal remains high to the duration of their phase difference and the DOWN signal remains low. If the Vref phase is leading with respect to Vout then DOWN signal remains high to the duration of their phase difference and the UP signal remains low. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079631/203073555-9091d92f-1198-4d12-86f2-4ea532928ddf.png">
+</p><br>
+
+The Phase detector is constructed using two negative edge triggered D Flip-Flops and a AND gate, which makes it a digital block.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/110079631/203073018-1c06be90-d496-4347-851c-4c3b80aae57c.png">
+</p><br>
