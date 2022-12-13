@@ -376,3 +376,15 @@ The Finished power and area report is shown below:
 The final routed design is shown below:
 ![Screenshot from 2022-12-13 15-51-14](https://user-images.githubusercontent.com/110079788/207292071-77decfc4-99ec-474c-8bc8-b50d15792d56.png)
 
+# Author
+
+- **Tejas B N**
+
+# Acknowledgments
+
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Associate Professor, IIIT Bangalore
+- V N Muralidhara, Associate Professor, IIIT Bangalore
+
+
