@@ -226,6 +226,11 @@ For the temperature specification of -20C to 100C, we see that three header file
   <img src="https://user-images.githubusercontent.com/110079788/207143879-3bbaa6af-b4bc-43de-abd1-cf2bf7a14ce9.png">
 </p><br>
 
+## To automate the remaining steps, type the command
+```
+make sky130hd_temp
+```
+
 ### 3.3.2 Synthesis
 The synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform. The synthesized verilog netlist is saved as shown in the below figure.
 
