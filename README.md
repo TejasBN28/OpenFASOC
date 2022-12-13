@@ -351,3 +351,9 @@ make sky130hd_pll_verilog
 
 The Generated verilog files reside in the /PLL-gen/flow/design/src/PLL folder.
 ![verilog_PLL](https://user-images.githubusercontent.com/110079788/207288771-82cfd30a-f3d1-4dc8-85c3-7665d18489bc.png)
+
+### 4.3.3 Synthesis to PNR
+To automate synthesis to PNR, type the command
+```
+make sky130hd_pll
+```
