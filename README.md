@@ -167,6 +167,10 @@ The layout of the SLC cell is shown below:
 
 ## 3.3 OpenFASOC Flow for Temperature Sensor Generation
 ### 3.3.1 Verilog Generation
+To run verilog generation, type the command 
+```
+make sky130hd_temp_verilog
+```
 The generator must first parse the user’s requirements into a high-level circuit description or verilog. User input parsing is implemented by reading from a JSON spec file directly in the temp-sense-gen repository. The JSON allows for specifying power, area, maximum error (temperature result accuracy),
 an optimization option (to choose which option to prioritize), and an operating temperature range (minimum and maximum operating temperature values).
 The operating temperature range and optimization must be specified, but other items can be left blank. 
