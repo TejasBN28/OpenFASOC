@@ -333,3 +333,19 @@ The auxillary cells already saved in the path showed below: <br>
 ### Voltage Controlled Oscillator
 ![VCP_PLL](https://user-images.githubusercontent.com/110079788/207286042-39213431-feb3-4fda-a99e-f8eeea4f3a0a.png)
 
+## 4.3 OpenFASOC Flow for PLL Generation
+### 4.3.1 Setup
+Gitclone the repo using the command 
+```
+git clone https://github.com/TejasBN28/OpenFASOC.git
+```
+Then place the folder PLL-gen in the generator folder of the openfasoc. Then in the Makefile in the flow folder, specify the absolute path of OpenROAD.
+
+### 4.3.2 Verilog Generation
+To generate the verilog, type the following command 
+````
+make sky130hd_pll_verilog
+```
+![Verilog_pll_cmd](https://user-images.githubusercontent.com/110079788/207288740-7c094cec-dc43-4101-8f72-29e0f19b9756.png)
+
+![verilog_PLL](https://user-images.githubusercontent.com/110079788/207288771-82cfd30a-f3d1-4dc8-85c3-7665d18489bc.png)
