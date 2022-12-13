@@ -210,6 +210,7 @@ The screenshot of the files created before and after is given below:
 <p align="center">
   <img src="/images/of8.png">
 </p><br>
+
 #### After
 <p align="center">
   <img src="/images/of9.png">
