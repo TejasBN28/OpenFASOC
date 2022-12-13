@@ -359,3 +359,20 @@ To automate synthesis to PNR, type the command
 make sky130hd_pll
 ```
 The floorplan power and area report is shown below:
+![fp_pll](https://user-images.githubusercontent.com/110079788/207291315-432922fe-4eef-49ff-b2dc-e5da7868e36a.png)
+
+The Global Placement power and area report is shown below:
+![pl_pll](https://user-images.githubusercontent.com/110079788/207291447-4cfe609e-67ab-494c-8dad-5f7a543ef891.png)
+
+The Detail Placement power and area report is shown below:
+![pl2_pll](https://user-images.githubusercontent.com/110079788/207291520-61dc3096-de88-4620-b315-fe92e2435d80.png)
+
+The Global route power and area report is shown below:
+![rout_pll](https://user-images.githubusercontent.com/110079788/207291591-99ef8d17-8fb3-49ab-a0ec-141716019aab.png)
+
+The Finished power and area report is shown below:
+![final_pll](https://user-images.githubusercontent.com/110079788/207291701-f3b8d1c2-d758-4715-a20b-3c08b8ee1f24.png)
+
+The final routed design is shown below:
+![Screenshot from 2022-12-13 15-51-14](https://user-images.githubusercontent.com/110079788/207292071-77decfc4-99ec-474c-8bc8-b50d15792d56.png)
+
